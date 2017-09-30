@@ -1,11 +1,19 @@
 
-## Offcal Document
+## 官方文件
 https://www.electron.build/
 
-## Pre-Install
-```- npm install -g asar```  
+.
 
-```- npm install electron-builder --dev```
+## 發佈前準備
+
+- 安裝 asar 套件  
+```- npm install asar -g```  
+
+
+- 安裝 electron-build 套件  
+```- npm install electron-builder -D```
+
+.
 
 ## Configuration
 
@@ -14,14 +22,15 @@ https://www.electron.build/
   "scripts": {
     "start": "electron .",
     "dist": "build"
-  }
+  },
+  
   "build": {
-  	"productName": "${name}",
+    "productName": "${name}",
     "copyright": "",
 
     "appId": "com.electron.${name}",
     "artifactName": "${productName}-${version}.${ext},
-	"asar": "true",
+  "asar": "true",
 
     "win": {
       "target": "nsis",
@@ -34,3 +43,9 @@ https://www.electron.build/
   }
 
 ```
+
+.
+
+
+## 建置專案
+```npm run dist```
