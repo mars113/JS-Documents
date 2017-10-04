@@ -6,17 +6,34 @@
 
 .
 
+
 ## HTML & CSS 
-.
+- [HTML Globle Attribuites](https://www.w3schools.com/tags/ref_standardattributes.asp)
+
+
+- [HTML Tags](https://www.w3schools.com/tags/ref_byfunc.asp)
+
+
+- [HTML Attributes](https://www.w3schools.com/tags/ref_attributes.asp)
+
+
+- [CSS Reference](https://www.w3schools.com/cssref/default.asp)
 
 .
 
 
 ## Framework
-- [Bootstarp]
+- [Bootstarp](http://getbootstrap.com/)
 
 
-- [JQuery]
+- [JQuery](http://api.jquery.com/)
+
+
+- [js-xlsx](https://github.com/SheetJS/js-xlsx)
+
+
+- [Type Script](https://github.com/kkbruce/TypeScript/blob/master/doc/zh-tw/Handbook.md)
+
 
 .
 
@@ -34,7 +51,4 @@
 
 
 ## Electron
-- [建置專案]
-
-
 - [發佈桌面應用程式](/Electron/BuildDesktopApp.md)
